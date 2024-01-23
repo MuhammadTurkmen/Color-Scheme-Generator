@@ -50,5 +50,9 @@ button,
 .color-scheme-section { 
     display: flex;
     margin-top: 35px;
+}
+
+.stripe-section { 
+    height: 510px;
 
 }

@@ -41,5 +41,6 @@ button,
 
 #select-color{ 
     padding: 9px 56px 9px 13px;
+    border-radius: 6px;
 
 }

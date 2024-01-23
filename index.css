@@ -12,5 +12,9 @@ html, body {
 header {
     height: 50px;
     padding: 25px 0px;
+}
+
+input[type="color"] {
+    width: 57px;
 
 }

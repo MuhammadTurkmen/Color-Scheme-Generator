@@ -17,5 +17,6 @@ header {
 input[type="color"] {
     width: 57px;
     height: 40px;
+    border: none;
 
 }

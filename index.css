@@ -55,5 +55,9 @@ button,
 .stripe-section { 
     height: 510px;
     width: 110px;
+}
+
+.hexcode-section {
+    display: flex;
 
 }

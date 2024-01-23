@@ -23,5 +23,5 @@ colorBtn.addEventListener('click', function()   {
         console.error(error);
         alert("Failed to fetch color scheme. Please try again later.");
     }); 
-
+ 
 })

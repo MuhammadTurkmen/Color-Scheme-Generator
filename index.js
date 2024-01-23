@@ -16,7 +16,6 @@ colorBtn.addEventListener('click', function()   {
             </div>
             `
         })
-        
         document.getElementById('color-scheme-section').innerHTML = html
     })  
     .catch(error => {

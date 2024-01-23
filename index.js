@@ -6,6 +6,18 @@ colorBtn.addEventListener('click', function()   {
 
     fetch(`https://www.thecolorapi.com/scheme?hex=${head}&mode=${selectColor.toLowerCase()}&count=5`)
     .then(res => res.json())
-
+    .then(data => {
+        let html = ''
+        data.colors.forEach(scheme =>{
+            html += `
+            <div class="colors-bar-div">
+                <div class="stripe-section" style="background-color: ${scheme.hex.value}"></div>
+                <div class="hexcode-section">${scheme.hex.value}</div>
+            </div>
+            `
+        })
+        
+        document.getElementById('color-scheme-section').innerHTML = html
+    })  
 
 })

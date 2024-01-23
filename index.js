@@ -19,5 +19,9 @@ colorBtn.addEventListener('click', function()   {
         
         document.getElementById('color-scheme-section').innerHTML = html
     })  
+    .catch(error => {
+        console.error(error);
+        alert("Failed to fetch color scheme. Please try again later.");
+    });
 
 })

@@ -7,3 +7,4 @@ $ npm install
 $ npm start
 ````
  
+![Alt text](image.png)

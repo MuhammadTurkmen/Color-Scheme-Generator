@@ -5,6 +5,7 @@ colorBtn.addEventListener('click', function()   {
     const selectColor = document.getElementById("select-color").value
 
     fetch(`https://www.thecolorapi.com/scheme?hex=${head}&mode=${selectColor.toLowerCase()}&count=5`)
+    .then(res => res.json())
 
 
 })

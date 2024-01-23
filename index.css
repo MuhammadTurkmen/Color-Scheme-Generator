@@ -18,5 +18,9 @@ input[type="color"] {
     width: 57px;
     height: 40px;
     border: none;
+}
+
+button {
+    border-radius: 4px;
 
 }

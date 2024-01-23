@@ -37,5 +37,9 @@ button,
     background: var(--white, #FFF);
     border: 1px solid var(--gray-300, #D1D5DB);
     cursor: pointer;
+}
+
+#select-color{ 
+    padding: 9px 56px 9px 13px;
 
 }

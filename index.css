@@ -49,5 +49,6 @@ button,
 
 .color-scheme-section { 
     display: flex;
+    margin-top: 35px;
 
 }

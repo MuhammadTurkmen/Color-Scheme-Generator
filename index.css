@@ -23,5 +23,6 @@ input[type="color"] {
 button {
     border-radius: 4px;
     font-size: 12px;
+    color: var(--gray-700, #374151);
 
 }
